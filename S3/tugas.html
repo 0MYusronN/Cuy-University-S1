@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic&display=swap" rel="stylesheet">
+    <title>Tugas</title>
+    <style>
+        body {
+            font-family: 'Antic', sans-serif !important;
+        }
+
+        .antic-regular {
+            font-family: "Antic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .tx-cs {
+            font-weight: 700;
+            color: #4D7E3E;
+            line-height: 110%;
+        }
+
+        .tx-ct {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .bg-ijo {
+            background-color: #23923d;
+        }
+
+        .prc {
+            color: #23923d;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+        .crd-hv:hover {
+            border: 1px solid #00838d;
+            z-index: 500;
+
+            .btn {
+                background-color: #23923d;
+                font-weight: 700;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light p-3 border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="taffgo-high-resolution-logo-transparent.png" alt="" height="32"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <span class="navbar-text me-auto">
+
+                    </span>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="tugas.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Abt">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pgservice">Service</a>
+                        </li>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Price
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-light"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#prc">Starter</a></li>
+                                        <li><a class="dropdown-item" href="#prc">Professional</a></li>
+                                        <li><a class="dropdown-item" href="#prc">Enterprisw</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Ctc">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- NAVBAR END -->
+    <!-- Hero Img -->
+    <div class="container col-xl-12 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <!-- FIXME lyt-sm  SIZE DAN CENTER POSISI HERO IMG -->
+            <div class="col-10 col-sm-10 col-lg-6">
+                <img src="sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg" class="d-block mx-lg-auto img-fluid"
+                    alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold mb-3">
+                    <p class="tx-cs">Nulla bibendum</p> neque.
+                </h1>
+                <p class="tx-ct">Suspendisse vel finibus eros. Integer pretium mattis ipsum, ac molestie ipsum ultrices
+                    vel. Integer ultrices, quam ut blandit ullamcorper, velit.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-success btn-lg px-4 me-md-2 rounded-pill">Call To
+                        Action</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Img End -->
+    <!-- About Us -->
+    <div class="container col-lgl-8 px-4 py-5">
+        <div class="row" id="Abt">
+            <div class="d-flex justify-content-center">
+                <div class="col col-sm-10">
+                    <div class="card text-sm-center shadow-none px-3 mb-5 border-0">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted fw-bolder">About Us</h6>
+                            <h4 class="card-title fw-bolder mb-5">About Our Company</h4>
+                            <p class="card-text lh-2 fs-5">
+                                Etiam ut tortor vitae est malesuada dapibus sed non metus. Fusce ac tincidunt massa. Sed
+                                tincidunt neque id condimentum elementum. Nulla vitae ultrices elit, vel faucibus
+                                ligula. Sed quis eleifend massa. Integer fermentum faucibus justo ut facilisis.
+                                Suspendisse est diam, malesuada a justo eu, iaculis sollicitudin nisi. Maecenas sed
+                                posuere magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us END -->
+    <!-- Service -->
+    <div class="container col-xl-12 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5" id="pgservice">
+            <!-- FIXME : EDIT CARD POSITION lyt-sm KE BAWAH UR SERVICES -->
+            <div class="col-10 col-sm-10 col-lg-6">
+                <div class="row g-2">
+                    <div class="col-6">
+                        <div class="card text-center p-4">
+                            <i class="bi bi-mic h1"></i>
+                            <div class="card-title fw-bolder">Service Name</div>
+                            <div class="card-subtitle text-muted">Lorem ipsum</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card text-center p-4">
+                            <i class="bi bi-fingerprint h1"></i>
+                            <div class="card-title fw-bolder">Service Name</div>
+                            <div class="card-subtitle text-muted">Lorem ipsum</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card text-center p-4">
+                            <i class="bi bi-lightbulb h1"></i>
+                            <div class="card-title fw-bolder">Service Name</div>
+                            <div class="card-subtitle text-muted">Lorem ipsum</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card text-center p-4">
+                            <i class="bi bi-file-earmark-text h1"></i>
+                            <div class="card-title fw-bolder">Service Name</div>
+                            <div class="card-subtitle text-muted">Lorem ipsum</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h6 class="card-subtitle mb-2 text-muted fw-bolder">Services</h6>
+                <h1 class="display-5 fw-bold mb-3">Our Services
+                </h1>
+                <p class="lead">Ut lobortis, purus a pellentesque egestas, eros justo blandit ex, dignissim
+                    venenatis
+                    enim enim vitae tellus. Nam varius ante sed volutpat consectetur. Aenean et pellentesque lacus.
+                    Duis
+                    auctor lobortis tempor.
+                </p>
+                <p class="lead">Vestibulum volutpat nec nibh at sodales. Pellentesque.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-success btn-lg px-4 me-md-2 rounded-pill">
+                        Call To Action
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service End -->
+    <!-- Price -->
+    <div class="container px-4 py-5 ">
+        <div class="card border-0" id="prc">
+            <div class="card-body">
+                <h1 class="card-title text-center fw-bold mb-3">Price</h1>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-10">
+                        <h4 class="card-subtitle text-muted text-center">
+                            Quickly build an effective pricing table for your potential customers with this
+                            Bootstrap
+                            example.
+                            It’s built with default Bootstrap components and utilities with little customization.
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-body">
+                <!-- FIXME Card : Hover btn-->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-3 col-sm-8">
+                        <div class="card d-flex align-items-center crd-hv">
+                            <div class="badge bg-ijo fw-bolder fs-6 px-5 py-2">
+                                Starter
+                            </div>
+                            <div class="card-body lh-2">
+                                <h5 class="card-title"><span class="prc">$0</span>/mon</h5>
+                                <p class="card-text">Up to 5 Users</p>
+                                <p class="card-text">Max 2 GB of Storage</p>
+                                <p class="card-text">Email Support</p>
+                                <p class="card-text">Basic Support Center</p>
+                                <button class="btn btn-outline-success d-grid mx-auto" type="button">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-8 ">
+                        <div class="card d-flex align-items-center crd-hv">
+                            <div class="badge bg-ijo fw-bolder fs-6 px-5 py-2">
+                                Professional
+                            </div>
+                            <div class="card-body lh-2">
+                                <h5 class="card-title"><span class="prc">$15</span>/mon</h5>
+                                <p class="card-text">Up to 20 Users</p>
+                                <p class="card-text">Max 10 GB of Storage</p>
+                                <p class="card-text">Email Support</p>
+                                <p class="card-text">Basic Support Center</p>
+                                <button class="btn btn-outline-success d-grid mx-auto" type="button">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-8">
+                        <div class="card d-flex align-items-center crd-hv">
+                            <div class="badge bg-ijo fw-bolder fs-6 px-5 py-2">
+                                Business
+                            </div>
+                            <div class="card-body lh-2">
+                                <h5 class="card-title"><span class="prc">$29</span>/mon</h5>
+                                <p class="card-text">Up to 30 Users</p>
+                                <p class="card-text">Max 20 GB of Storage</p>
+                                <p class="card-text">Email Support</p>
+                                <p class="card-text">Basic Support Center</p>
+                                <button class="btn btn-outline-success d-grid mx-auto" type="button">Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Price End -->
+
+    <!-- Contact -->
+
+    <div class="container px-4 py-5">
+        <div class="row d-flex justify-content-center" id="Ctc">
+            <div class="card col-lg-10 col-sm-6  border-0">
+                <h1 class="card-title text-center fw-bold">Contact Us</h1>
+                <div class="card-body">
+                    <div class="form-input  mb-3">
+                        <input type="text" class="form-control rounded" name="" id="" aria-describedby="nameHelpId"
+                            placeholder="Full Name" />
+                    </div>
+                    <div class="form-input  mb-3">
+                        <input type="email" class="form-control rounded" name="" id="" aria-describedby="emailHelpId"
+                            placeholder="Email" />
+                    </div>
+                    <div class="form-input mb-3">
+                        <textarea class="form-control rounded" name="" id="" rows="4"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-input mb-3 text-center">
+                        <button type="submit" class="btn btn-success px-4 me-md-2 rounded-pill">Send Email</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Contact End -->
+    <!-- FOOTER -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="tugas.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#Abt" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="#pgservice" class="nav-link px-2 text-muted">Service</a></li>
+                <li class="nav-item"><a href="#prc" class="nav-link px-2 text-muted">Price</a></li>
+                <li class="nav-item"><a href="#Ctc" class="nav-link px-2 text-muted">Contact</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+        </footer>
+    </div>
+
+    <!-- FOOTER END -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
